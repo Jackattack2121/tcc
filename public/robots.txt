@@ -1,0 +1,16 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Disallow admin areas (if any)
+Disallow: /admin/
+Disallow: /api/
+
+# Crawl-delay for better server performance
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://www.theculinarycreative.com.au/sitemap.xml
+
+# Additional sitemaps (if needed)
+# Sitemap: https://www.theculinarycreative.com.au/sitemap-images.xml
