@@ -184,6 +184,30 @@ export default function Home() {
 
   // Add this new array of latest images to be featured at the very beginning of the carousel
   const latestImages = [
+    // Newly uploaded images from 2025-10-10
+    "https://hhwjr1eiavvhkdwe.public.blob.vercel-storage.com/gallery/2025-10-10/High%20res-112.jpg",
+    "https://hhwjr1eiavvhkdwe.public.blob.vercel-storage.com/gallery/2025-10-10/High%20res-129.jpg",
+    "https://hhwjr1eiavvhkdwe.public.blob.vercel-storage.com/gallery/2025-10-10/High%20res-13.jpg",
+    "https://hhwjr1eiavvhkdwe.public.blob.vercel-storage.com/gallery/2025-10-10/High%20res-139.jpg",
+    "https://hhwjr1eiavvhkdwe.public.blob.vercel-storage.com/gallery/2025-10-10/High%20res-145.jpg",
+    "https://hhwjr1eiavvhkdwe.public.blob.vercel-storage.com/gallery/2025-10-10/High%20res-2.jpg",
+    "https://hhwjr1eiavvhkdwe.public.blob.vercel-storage.com/gallery/2025-10-10/High%20res-20.jpg",
+    "https://hhwjr1eiavvhkdwe.public.blob.vercel-storage.com/gallery/2025-10-10/High%20res-31.jpg",
+    "https://hhwjr1eiavvhkdwe.public.blob.vercel-storage.com/gallery/2025-10-10/High%20res-36.jpg",
+    "https://hhwjr1eiavvhkdwe.public.blob.vercel-storage.com/gallery/2025-10-10/High%20res-4.jpg",
+    "https://hhwjr1eiavvhkdwe.public.blob.vercel-storage.com/gallery/2025-10-10/High%20res-42.jpg",
+    "https://hhwjr1eiavvhkdwe.public.blob.vercel-storage.com/gallery/2025-10-10/High%20res-52.jpg",
+    "https://hhwjr1eiavvhkdwe.public.blob.vercel-storage.com/gallery/2025-10-10/High%20res-55.jpg",
+    "https://hhwjr1eiavvhkdwe.public.blob.vercel-storage.com/gallery/2025-10-10/High%20res-59.jpg",
+    "https://hhwjr1eiavvhkdwe.public.blob.vercel-storage.com/gallery/2025-10-10/High%20res-6.jpg",
+    "https://hhwjr1eiavvhkdwe.public.blob.vercel-storage.com/gallery/2025-10-10/High%20res-63.jpg",
+    "https://hhwjr1eiavvhkdwe.public.blob.vercel-storage.com/gallery/2025-10-10/High%20res-78.jpg",
+    "https://hhwjr1eiavvhkdwe.public.blob.vercel-storage.com/gallery/2025-10-10/High%20res-83.jpg",
+    "https://hhwjr1eiavvhkdwe.public.blob.vercel-storage.com/gallery/2025-10-10/High%20res-92.jpg",
+    "https://hhwjr1eiavvhkdwe.public.blob.vercel-storage.com/gallery/2025-10-10/High%20res-93.jpg",
+    "https://hhwjr1eiavvhkdwe.public.blob.vercel-storage.com/gallery/2025-10-10/High%20res-94.jpg",
+    "https://hhwjr1eiavvhkdwe.public.blob.vercel-storage.com/gallery/2025-10-10/High%20res-96.jpg",
+    // Previous images
     "https://afcks0sjupys5isr.public.blob.vercel-storage.com/Jamie%20Latest%2024/IMG_1238-a1TlNIcwy5TN7vwl9NFRBr8zm6xVIm.jpeg",
     "https://afcks0sjupys5isr.public.blob.vercel-storage.com/Jamie%20Latest%2024/IMG_2028-gncp5s2sFLSnQqt7wP8bYUCheh5uEg.jpeg",
     "https://afcks0sjupys5isr.public.blob.vercel-storage.com/Jamie%20Latest%2024/IMG_2078-21HPLnyZAhBpbsLZ6I4EA3o2HEy1vd.jpeg",

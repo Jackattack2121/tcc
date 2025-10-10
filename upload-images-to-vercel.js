@@ -2,6 +2,10 @@ import { put } from '@vercel/blob';
 import fg from 'fast-glob';
 import fs from 'node:fs';
 import path from 'node:path';
+import { config } from 'dotenv';
+
+// Load environment variables from .env file
+config();
 
 const FOLDER = './public/images';
 const date = new Date().toISOString().split('T')[0]; // e.g., 2025-10-10
