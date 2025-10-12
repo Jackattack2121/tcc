@@ -10,12 +10,13 @@ import { BookEvent } from "@/components/card-contents/book-event"
 import { VideoGallery } from "@/components/card-contents/video-gallery"
 import { OurMenus } from "@/components/card-contents/our-menus"
 import { WhatWeOffer } from "@/components/card-contents/what-we-offer"
+import { PayItForward } from "@/components/card-contents/pay-it-forward"
 import { Gallery } from "@/components/gallery"
 import { PhotoModal } from "@/components/photo-modal"
 
 // Add proper heading structure and SEO-friendly content
 
-type PopupContent = "about" | "book" | "videos" | "menus" | "offer" | "gallery" | null
+type PopupContent = "about" | "book" | "videos" | "menus" | "offer" | "payitforward" | "gallery" | null
 
 export default function Home() {
   const [openPopup, setOpenPopup] = useState<PopupContent>(null)
@@ -94,6 +95,8 @@ export default function Home() {
         return <OurMenus onClose={handleClosePopup} />
       case "offer":
         return <WhatWeOffer onClose={handleClosePopup} />
+      case "payitforward":
+        return <PayItForward onClose={handleClosePopup} />
       case "gallery":
         return <Gallery onClose={handleClosePopup} />
       default:
@@ -275,6 +278,15 @@ export default function Home() {
 
   const contentCards = [
     <ContentCard
+      key="payitforward"
+      title="Pay It Forward"
+      subtitle="Help us feed someone doing it tough — or let us know if you need a meal."
+      backgroundVideo="https://afcks0sjupys5isr.public.blob.vercel-storage.com/culinarycreative/charity.mp4"
+      onClick={() => handleOpenPopup("payitforward")}
+      hasWarmGlow={true}
+      hasHeartSticker={true}
+    />,
+    <ContentCard
       key="menus"
       title="Our Menus"
       subtitle="Explore our diverse culinary offerings featuring seasonal ingredients and gourmet catering options"
@@ -289,13 +301,6 @@ export default function Home() {
       onClick={() => handleOpenPopup("about")}
     />,
     <ContentCard
-      key="offer"
-      title="What We Offer"
-      subtitle="Luxury dining experiences and bespoke catering for special occasions"
-      backgroundImage="https://afcks0sjupys5isr.public.blob.vercel-storage.com/culinarycreative/new%20images/IMG_6847_jpg_1-D6B5H0AUi4keqaOaemcDutcgqjwvry.jpg"
-      onClick={() => handleOpenPopup("offer")}
-    />,
-    <ContentCard
       key="book"
       title="Book an Event"
       subtitle="Food event planning and private chef services for your next celebration"
@@ -303,11 +308,11 @@ export default function Home() {
       onClick={() => handleOpenPopup("book")}
     />,
     <ContentCard
-      key="videos"
-      title="Latest Videos"
-      subtitle="Watch Chef Jamie create culinary magic for intimate dining experiences"
-      backgroundImage="https://afcks0sjupys5isr.public.blob.vercel-storage.com/culinarycreative/dc18d3_e925224720ec4f1da5e3c5d29f8d5b16~mv2-YMZokpNumMdmYmgHehvvONhWbySyCC.png"
-      onClick={() => handleOpenPopup("videos")}
+      key="offer"
+      title="What We Offer"
+      subtitle="Luxury dining experiences and bespoke catering for special occasions"
+      backgroundImage="https://afcks0sjupys5isr.public.blob.vercel-storage.com/culinarycreative/new%20images/IMG_6847_jpg_1-D6B5H0AUi4keqaOaemcDutcgqjwvry.jpg"
+      onClick={() => handleOpenPopup("offer")}
     />,
   ]
 
