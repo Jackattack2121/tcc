@@ -18,7 +18,7 @@ export async function POST(request: Request) {
         <head>
           <meta charset="utf-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>Thank You — You're Amazing</title>
+          <title>Thank You! You're Amazing</title>
         </head>
         <body style="margin: 0; padding: 0; background-color: #0e0c0b; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;">
           <table role="presentation" style="width: 100%; border-collapse: collapse; background-color: #0e0c0b;">
@@ -35,7 +35,7 @@ export async function POST(request: Request) {
                   <!-- Headline -->
                   <tr>
                     <td style="padding: 20px 40px; text-align: center;">
-                      <h1 style="color: #ffffff; font-size: 42px; font-weight: bold; margin: 0; line-height: 1.2;">Thank You — You're Amazing.</h1>
+                      <h1 style="color: #ffffff; font-size: 42px; font-weight: bold; margin: 0; line-height: 1.2;">Thank You! You're Amazing.</h1>
                     </td>
                   </tr>
                   
@@ -46,7 +46,7 @@ export async function POST(request: Request) {
                         We just wanted to say a big thank you for stepping up to help.
                       </p>
                       <p style="color: #ffffff; font-size: 18px; line-height: 1.6; margin: 0 0 20px 0;">
-                        Whether you're donating a meal, ingredients, your time or a kind word — it means the world to someone doing it tough.
+                        Whether you're donating a meal, ingredients, your time or a kind word, it means the world to someone doing it tough.
                       </p>
                       <p style="color: #ffffff; font-size: 18px; line-height: 1.6; margin: 0 0 20px 0;">
                         We've received your message and we'll be in touch shortly with how you can get involved.

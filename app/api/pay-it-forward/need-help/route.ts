@@ -43,7 +43,7 @@ export async function POST(request: Request) {
                   <tr>
                     <td style="padding: 20px 40px; text-align: center;">
                       <p style="color: #ffffff; font-size: 18px; line-height: 1.6; margin: 0 0 20px 0;">
-                        Thanks for reaching out. It takes courage to ask for help — and we want you to know you're not alone.
+                        Thanks for reaching out. It takes courage to ask for help and we want you to know you're not alone.
                       </p>
                       <p style="color: #ffffff; font-size: 18px; line-height: 1.6; margin: 0 0 20px 0;">
                         We've received your message and we'll do everything we can to connect you with a meal or support as soon as possible.
