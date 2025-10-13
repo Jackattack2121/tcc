@@ -278,15 +278,6 @@ export default function Home() {
 
   const contentCards = [
     <ContentCard
-      key="payitforward"
-      title="Pay It Forward"
-      subtitle="Help us feed someone doing it tough — or let us know if you need a meal."
-      backgroundVideo="https://afcks0sjupys5isr.public.blob.vercel-storage.com/culinarycreative/charity.mp4"
-      onClick={() => handleOpenPopup("payitforward")}
-      hasWarmGlow={true}
-      hasHeartSticker={true}
-    />,
-    <ContentCard
       key="menus"
       title="Our Menus"
       subtitle="Explore our diverse culinary offerings featuring seasonal ingredients and gourmet catering options"
@@ -313,6 +304,15 @@ export default function Home() {
       subtitle="Luxury dining experiences and bespoke catering for special occasions"
       backgroundImage="https://afcks0sjupys5isr.public.blob.vercel-storage.com/culinarycreative/new%20images/IMG_6847_jpg_1-D6B5H0AUi4keqaOaemcDutcgqjwvry.jpg"
       onClick={() => handleOpenPopup("offer")}
+    />,
+    <ContentCard
+      key="payitforward"
+      title="Pay It Forward"
+      subtitle="Help us feed someone doing it tough — or let us know if you need a meal."
+      backgroundVideo="https://afcks0sjupys5isr.public.blob.vercel-storage.com/culinarycreative/charity.mp4"
+      onClick={() => handleOpenPopup("payitforward")}
+      hasWarmGlow={true}
+      hasHeartSticker={true}
     />,
   ]
 
